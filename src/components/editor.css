@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+    margin: 20px;
+    justify-content: space-evenly;
+    align-items: stretch;
+}
+.input-text{
+    height: 350px;
+    width: 550px;
+    border: 3px grey solid;
+    background-color: rgb(59, 59, 255);
+    border-radius: 10px;    
+}
+input, select, textarea{
+    color: rgb(255, 255, 255);
+}
+.output-text{
+    height: 500px;
+    width: 400px;
+    background-color: rgb(94, 93, 93);
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 5px 10px 8px #302c2c;
+}
+.output{
+    width: 400px;
+    word-wrap: break-word;
+}
